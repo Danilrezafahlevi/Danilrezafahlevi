@@ -1,0 +1,267 @@
+/* Ultra-Premium Landing Page Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f7ff;
+}
+.top-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 40px;
+    background: #eedb6e;
+    box-sizing: border-box;
+}
+
+.header-image {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.welcome-text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    flex: 1; 
+}
+
+.top-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-image {
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.left-img {
+    float: left;
+}
+
+.right-img {
+    float: right;
+}
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.btn-daftar {
+    display: inline-block;
+    background: #0a74ff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn-daftar:hover {
+    background: #0056d6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f8f8f8;
+  color: #1a1a1a;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+}
+.hero .cta-btn {
+  background: #ffb400;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s;
+}
+.hero .cta-btn:hover {
+  background: #b49546;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4rem;
+}
+.card p {
+  opacity: 0.8;
+}
+.card .btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.card .btn:hover {
+  background: #ffb400;
+  color: #1a1a1a;
+}
+
+.testimonials {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+.testimonial-box {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 14px;
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  background: #0a0a0a;
+  color: white;
+}
+.contact-section {
+    padding: 60px 20px;
+    margin-top: 50px;
+    background: #0f0f0f;
+    color: #fff;
+    border-top: 3px solid #d4af37;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #d4af37;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info, .social-media {
+    background: #1b1b1b;
+    padding: 30px;
+    border-radius: 18px;
+    width: 340px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+}
+
+.contact-info h3, .social-media h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.social-media ul li a:hover {
+    color: #d4af37;
+    padding-left: 6px;
+}
+
+.contact-btn {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    padding: 14px 22px;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(18, 140, 126, 0.4);
+}
+.profile-visuals {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
